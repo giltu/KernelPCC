@@ -522,7 +522,7 @@ static struct tcp_congestion_ops cubictcp __read_mostly = {
 	.undo_cwnd	= bictcp_undo_cwnd,
 	.pkts_acked     = bictcp_acked,
 	.owner		= THIS_MODULE,
-	.name		= "tubin",
+	.name		= "TA",
 };
 
 static int __init cubictcp_register(void)
